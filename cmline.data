@@ -1,0 +1,4 @@
+cmd.exe /c ffplay.exe -x 400 -y 300 "%s" <nul 2<nul
+cmd.exe /c ffplay.exe -x 400 -y 300 "%s"
+cmd.exe /c ffplay.exe -x 400 -y 300 "rtmp://58.200.131.2:1935/livetv/cctv%d" <nul  2<nul
+cmd.exe /c ffplay.exe -x 400 -y 300 "rtmp://58.200.131.2:1935/livetv/cctv%d"
